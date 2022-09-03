@@ -15,10 +15,14 @@ Thank you to our contributors.
 - [Livia](https://github.com/LiviaFResende) - Web Developer
 - [Kathryn](https://github.com/kathryn008) - Web Developer
 
+
 ## Project Google Drive
 
 - [Link to drive](https://drive.google.com/drive/folders/1VrFZZTYRemjaKKvF6rhyJqbR9bh1j-X-?usp=sharing)
 
+## Code.Sydney Playbook Excerpt
+
+- [Managing version control / branches / pull requests](https://github.com/codesydney/code-sydney-playbook/blob/main/docs/pull-request.md)
 
 ## Template Live Demo
 

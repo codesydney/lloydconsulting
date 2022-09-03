@@ -9,12 +9,8 @@ Having identified a gap in the employment market for the on-boarding and managem
 
 Thank you to our contributors.
 
-- [seqprav](https://github.com/seqprav) - Technical Team Lead
-- [s-sindinovic](https://github.com/s-sinadinovic) - Frontend Lead Developer
-- [engramar](https://github.com/engramar) - Project Coordinator
-- [LillianLuzinsky](https://github.com/LillianLuzinsky) - UI/UX Designer
-- [rpgarde](https://github.com/rpgarde) - Frontend Developer
-- [HDKHALILI](https://github.com/HDKHALILI) - Frontend Developer
-- [ettienekorayyi](https://github.com/ettienekorayyi) - Frontend Developer
-- [davidtaing](https://github.com/davidtaing) - Frontend Developer
-- [capsap](https://github.com/capsap) - Frontend Developer
+- [Engramar](https://github.com/engramar) - Project Coordinator
+- [Paul](https://github.com/sfofthings) - Web Developer
+- [Naheen](https://github.com/n4heen) - Web Developer
+- [Livia](https://github.com/LiviaFResende) - Web Developer
+- [Kathryn](https://github.com/kathryn008) - Web Developer

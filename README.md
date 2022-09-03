@@ -3,9 +3,7 @@
 ## About the Project
 This is a new website for Lloyd Criminal Consulting Co. 
 
-Having identified a gap in the employment market for the on-boarding and management of people with a criminal record in organisations Lloyd Criminal Consulting Co works in the space between employers and ex-prisoners and provides best-practice support, education, and training on how to engage and work with people impacted by the Criminal Justice System, and other marginalised populations.
-
-Lloyd Criminal Consulting Co was founded as a direct result of my lived experience in the Criminal Justice System and my personal fight against a 4-year prison sentence becoming a life sentence. Out of my own experience, it became obvious to me that the current processes, instruments of measurement (such as risk assessments/capacity to work assessments etc) for people involved in the criminal justice system are unhelpful and counter-productive at best, and provide few viable supports or real-life solutions for incarcerated people upon exiting prison.
+Having identified a gap in the employment market for the on-boarding and management of people with a criminal record in organisations, Lloyd Criminal Consulting Co works in the space between employers and ex-prisoners and provides best-practice support, education, and training on how to engage and work with people impacted by the Criminal Justice System, and other marginalised populations.
 
 ## Contributors
 

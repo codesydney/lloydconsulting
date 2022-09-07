@@ -31,18 +31,18 @@ import { FiX , FiMenu } from "react-icons/fi";
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'Fast Performance',
-        description: 'Optimized for a smaller build size, faster dev compilation and dozens of other improvements.'
+        title: 'It uses React!',
+        description: 'Our team has heaps of knowledge and experience between us'
     },
     {
         icon: <FiCast />,
-        title: 'Perfect Responsive',
-        description: 'Our Template is full Perfect for all device. You can visit our template all device easily.'
+        title: 'This template is wild!',
+        description: 'Enthusiasm and a desire to learn is also important'
     },
     {
         icon: <FiMap />,
-        title: 'Fast & Friendly Support',
-        description: 'We are provide 24 hours support for all clients.You can purchase without hesitation.'
+        title: 'We can do this!',
+        description: "It's very exciting to work on a real project"
     },
 ]
 
@@ -564,7 +564,7 @@ class Demo extends Component {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className="inner">
-                                            <h1 className="title theme-gradient">Quick agency & portfolio template for your next website</h1>
+                                            <h1 className="title theme-gradient">An awesome project by super keen volunteer developers!</h1>
                                         </div>
                                     </div>
                                 </div>

@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from "react";
+import React, { Component, Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import {
     FaReact,
@@ -25,13 +25,13 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { FiActivity, FiCast, FiMap } from "react-icons/fi";
 import { Link } from 'react-router-dom';
-import { FiX , FiMenu } from "react-icons/fi";
+import { FiX, FiMenu } from "react-icons/fi";
 
 
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'Fast Performance',
+        title: 'Is the Best Performance between the Demos Available - From Livia',
         description: 'Optimized for a smaller build size, faster dev compilation and dozens of other improvements.'
     },
     {
@@ -49,42 +49,42 @@ const ServiceList = [
 
 const featureList = [
     {
-        icon: <FaReact/>,
+        icon: <FaReact />,
         title: 'Latest React 16.8+',
         subtitle: 'We used latest react vertion ^16.8.6.Its a awesome design made by react.'
     },
     {
-        icon: <FiSmartphone/>,
+        icon: <FiSmartphone />,
         title: 'Perfect Responsive',
         subtitle: 'Our Template is full Perfect for all device. You can visit our template all device easily.'
     },
     {
-        icon: <FiCode/>,
+        icon: <FiCode />,
         title: 'Well Documented Codes',
         subtitle: 'The Imroz code is awesome well documented code. And Its customization is very easily'
     },
     {
-        icon: <FaSass/>,
+        icon: <FaSass />,
         title: 'Sass Available',
         subtitle: 'The tamplate has Sass available for css. You can Change css by sass'
     },
     {
-        icon: <FiDownload/>,
+        icon: <FiDownload />,
         title: 'Fast Loading Speed',
         subtitle: 'Imroz is faster loading speed.Imroz create your theme so much faster '
     },
     {
-        icon: <FiCommand/>,
+        icon: <FiCommand />,
         title: 'Modern Design',
         subtitle: 'Imroz is a modern creatuve design for Creative Agency , Personal Portfolio etc....'
     },
     {
-        icon: <FiHeadphones/>,
+        icon: <FiHeadphones />,
         title: '24 Support System',
         subtitle: 'We are provide 24 hours support for all clients.You can purchase without hesitation.'
     },
     {
-        icon: <FiBold/>,
+        icon: <FiBold />,
         title: 'Bootstrap Comfortable',
         subtitle: 'Bootstrap comfortable is available in Imroz. So layout changes is so much easily'
     }
@@ -181,7 +181,7 @@ const singleDemo = [
         imageUrl: 'studio-agency.png',
         title: 'Studio Agency',
         label: ''
-    
+
     },
     {
         url: 'startup',
@@ -264,7 +264,7 @@ const agencyDemo = [
         title: 'Interior Design',
         label: 'Hot'
     }
-  
+
 ]
 
 const busenessDemo = [
@@ -304,7 +304,7 @@ const busenessDemo = [
         title: 'Studio Agency',
         label: ''
     },
-   
+
 ]
 
 const portfolioList = [
@@ -473,7 +473,7 @@ const innerDemo = [
         imageUrl: 'portfolio-details.png',
         title: 'Portfolio Details',
     },
-    
+
     {
         url: 'video-popup',
         imageUrl: 'video-popup.png',
@@ -492,8 +492,8 @@ class Demo extends Component {
         super(props);
         this.menuTrigger = this.menuTrigger.bind(this);
         this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
-       //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
-        window.addEventListener('load', function() {
+        //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
+        window.addEventListener('load', function () {
             console.log('All assets are loaded')
         })
     }
@@ -505,9 +505,9 @@ class Demo extends Component {
     }
     render() {
         var elements = document.querySelectorAll('.has-droupdown > a');
-        for(var i in elements) {
-            if(elements.hasOwnProperty(i)) {
-                elements[i].onclick = function() {
+        for (var i in elements) {
+            if (elements.hasOwnProperty(i)) {
+                elements[i].onclick = function () {
                     this.parentElement.querySelector('.submenu').classList.toggle("active");
                     this.classList.toggle("open");
                 }
@@ -536,7 +536,7 @@ class Demo extends Component {
                                     <li><a target="_blank" href="https://support.rainbowit.net/support/">Friendly Support</a> </li>
                                 </ul>
                             </nav>
-                            
+
                             <div className="header-btn">
                                 <a className="btn-default" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
                                     <span>Buy Now</span>
@@ -553,8 +553,8 @@ class Demo extends Component {
                         </div>
                     </div>
                 </header>
-                
-              
+
+
                 {/* Start Slider Area   */}
                 <div className="pv-slider-area slider-wrapper">
                     <div className="slider-activation">
@@ -568,11 +568,11 @@ class Demo extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 {/* Start Service Area */}
                                 <div className="service-wrapper service-white">
                                     <div className="row row--25">
-                                        {ServiceList.map( (val , i) => (
+                                        {ServiceList.map((val, i) => (
                                             <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                                                 <div className="service service__style--1">
                                                     <div className="icon">
@@ -590,7 +590,7 @@ class Demo extends Component {
                                 {/* End Service Area */}
 
                             </div>
-                        </div> 
+                        </div>
                         {/* End Single Slide */}
                     </div>
                 </div>
@@ -609,7 +609,7 @@ class Demo extends Component {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center pb--30">
                                         <h2 className="title theme-gradient">Home Demo</h2>
-                                        <p>Choose one of styles or cutomize easily your site following your ideas. <br/> More
+                                        <p>Choose one of styles or cutomize easily your site following your ideas. <br /> More
                                             demos are coming soon.</p>
                                     </div>
                                 </div>
@@ -628,17 +628,17 @@ class Demo extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <TabPanel className="row">
-                                    {singleDemo.map((value , index) => (
+                                    {singleDemo.map((value, index) => (
                                         // Start Single Demo 
                                         <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
                                             <div className="single-demo">
                                                 <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
+                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images" />
                                                     <h3 className="title">{value.title}{value.label ? <span className="label-new"><span>{value.label}</span></span> : ''}</h3>
                                                     <p className="info">{value.description}</p>
-                                                    
+
                                                 </a>
                                             </div>
                                         </div>
@@ -647,28 +647,12 @@ class Demo extends Component {
                                 </TabPanel>
 
                                 <TabPanel className="row">
-                                    {agencyDemo.map((value , index) => (
+                                    {agencyDemo.map((value, index) => (
                                         // Start Single Demo 
                                         <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
                                             <div className="single-demo">
                                                 <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
-                                                    <h3 className="title">{value.title}{value.label ? <span className="label-new"><span>{value.label}</span></span> : ''}</h3>
-                                                    <p className="info">{value.description}</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        // End Single Demo
-                                    ))}
-                                </TabPanel>
-
-                                <TabPanel className="row">
-                                    {busenessDemo.map((value , index) => (
-                                        // Start Single Demo 
-                                        <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                            <div className="single-demo">
-                                                <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
+                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images" />
                                                     <h3 className="title">{value.title}{value.label ? <span className="label-new"><span>{value.label}</span></span> : ''}</h3>
                                                     <p className="info">{value.description}</p>
                                                 </a>
@@ -679,12 +663,12 @@ class Demo extends Component {
                                 </TabPanel>
 
                                 <TabPanel className="row">
-                                    {portfolioList.map((value , index) => (
+                                    {busenessDemo.map((value, index) => (
                                         // Start Single Demo 
                                         <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
                                             <div className="single-demo">
                                                 <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
+                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images" />
                                                     <h3 className="title">{value.title}{value.label ? <span className="label-new"><span>{value.label}</span></span> : ''}</h3>
                                                     <p className="info">{value.description}</p>
                                                 </a>
@@ -695,12 +679,28 @@ class Demo extends Component {
                                 </TabPanel>
 
                                 <TabPanel className="row">
-                                    {landingPage.map((value , index) => (
+                                    {portfolioList.map((value, index) => (
                                         // Start Single Demo 
                                         <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
                                             <div className="single-demo">
                                                 <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
+                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images" />
+                                                    <h3 className="title">{value.title}{value.label ? <span className="label-new"><span>{value.label}</span></span> : ''}</h3>
+                                                    <p className="info">{value.description}</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        // End Single Demo
+                                    ))}
+                                </TabPanel>
+
+                                <TabPanel className="row">
+                                    {landingPage.map((value, index) => (
+                                        // Start Single Demo 
+                                        <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <div className="single-demo">
+                                                <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
+                                                    <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images" />
                                                     <h3 className="title">{value.title}{value.label ? <span className="label-new"><span>{value.label}</span></span> : ''}</h3>
                                                     <p className="info">{value.description}</p>
                                                 </a>
@@ -726,12 +726,12 @@ class Demo extends Component {
                                 </div>
                             </div>
                             <div className="row">
-                                {innerDemo.map((value , index) => (
+                                {innerDemo.map((value, index) => (
                                     // Start Single Demo
                                     <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
                                         <div className="single-demo">
                                             <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
+                                                <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images" />
                                                 <h3 className="title">{value.title}</h3>
                                             </a>
                                         </div>
@@ -775,7 +775,7 @@ class Demo extends Component {
                     </div>
                     {/* End Feature Area  */}
 
-                     {/* Start Faq Area */}
+                    {/* Start Faq Area */}
                     <div id="faq" className="pv-feaq-area bg_color--5 ptb--120">
                         <div className="container">
                             <div className="row">
@@ -809,10 +809,10 @@ class Demo extends Component {
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
                                                     <p>You can run Imroz easily.
-                                                    First You'll need to have node and npm on your machine.
-                                                    So Please open your command prompt then check your node -v and npm -v Version.
-                                                    Goes To Your your command prompt: then
-                                                    First: <strong className="theme-color">npm install</strong></p>
+                                                        First You'll need to have node and npm on your machine.
+                                                        So Please open your command prompt then check your node -v and npm -v Version.
+                                                        Goes To Your your command prompt: then
+                                                        First: <strong className="theme-color">npm install</strong></p>
                                                     <p>At Last: <strong className="theme-color">npm run start</strong>. By the following way you can be run your project easily.</p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
@@ -870,19 +870,19 @@ class Demo extends Component {
                                                     </p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
-                                          
+
                                         </Accordion>
                                     </div>
                                 </div>
                             </div>
-                        </div>        
+                        </div>
                     </div>
-                     {/* Start Faq Area */}
-                                    
+                    {/* Start Faq Area */}
+
 
                     {/* Start Footer Area  */}
                     <footer className="pv-callto-action call-to-action-wrapper text-white-wrapper call-to-action ptb--120 bg_image bg_image--34" data-black-overlay="9">
-                       
+
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">

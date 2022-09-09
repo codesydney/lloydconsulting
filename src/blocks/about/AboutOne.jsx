@@ -1,6 +1,7 @@
 import React from 'react';
 const AboutOne = () => {
     return (
+
         <div className="container">
             <div className="row row--20 align-items-center">
                 <div className="col-lg-6">
@@ -19,7 +20,7 @@ const AboutOne = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="about-us-list">
                                     <h5 className="title">Honest</h5>
-                                    <p>Lorem ipsum dolor sit amet, onecis et mollis.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita consectetur consequatur illum cupiditate molestias illo ex, maiores excepturi alias rem adipisci qui? Consequuntur eum tenetur deleniti exercitationem quas aliquam rerum.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

@@ -20,7 +20,7 @@ const AboutOne = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="about-us-list">
                                     <h5 className="title">Honest</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita consectetur consequatur illum cupiditate molestias illo ex, maiores excepturi alias rem adipisci qui? Consequuntur eum tenetur deleniti exercitationem quas aliquam rerum.</p>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nostrum nam. Consectetur fugiat officia, magni libero vel optio. Ipsa consequuntur natus explicabo inventore ab. Iste quae sint fugiat optio nemo?dryrun</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

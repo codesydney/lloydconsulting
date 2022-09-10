@@ -31,4 +31,4 @@ Thank you to our contributors.
 
 ## Template Live Demo
 
-- [Link to Figma Design] (https://www.figma.com/file/G3mxLMJ6vJQd49AAYqopnr/Lloyd-Consulting-Website?node-id=0%3A1)
+- [Link to Figma Design](https://www.figma.com/file/G3mxLMJ6vJQd49AAYqopnr/Lloyd-Consulting-Website?node-id=0%3A1)

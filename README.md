@@ -26,4 +26,5 @@ Thank you to our contributors.
 
 ## Template Live Demo
 
-- [Link to Demo](https://lloydconsulting.vercel.app/)
+- [Link to WIP Demo](https://lloydconsulting.vercel.app/)
+- [Link to Template Reference](http://imroz.rainbowit.net/dark-portfolio-landing#home)

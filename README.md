@@ -28,3 +28,7 @@ Thank you to our contributors.
 
 - [Link to WIP Demo](https://lloydconsulting.vercel.app/)
 - [Link to Template Reference](http://imroz.rainbowit.net/dark-portfolio-landing#home)
+
+## Template Live Demo
+
+- [Link to Figma Design] (https://www.figma.com/file/G3mxLMJ6vJQd49AAYqopnr/Lloyd-Consulting-Website?node-id=0%3A1)

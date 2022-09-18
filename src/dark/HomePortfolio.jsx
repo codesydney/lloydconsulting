@@ -68,8 +68,8 @@ class HomePortfolio extends Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--30">
-                                    <span className="subtitle">My complete project</span>
-                                    <h2 className="title">Our Project</h2>
+                                    <span className="subtitle">Merch</span>
+                                    <h2 className="title">Our Shop</h2>
                                     <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
                                 </div>
                             </div>

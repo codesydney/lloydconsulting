@@ -79,7 +79,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <span className="subtitle">My About Details</span>
+                                            <span className="subtitle">About Details</span>
                                             <h2 className="title mb--20">{title}</h2>
                                             <p className="description mt_dec--20">{description}</p>
                                         </div>
@@ -103,8 +103,8 @@ const PortfolioLanding = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--30 mb_sm--0">
-                                    <span className="subtitle">What I can do for you</span>
-                                    <h2 className="title">My Awesome Service</h2>
+                                    <span className="subtitle">How can I help</span>
+                                    <h2 className="title">Services</h2>
                                     <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -127,8 +127,8 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center mb--30 mb_sm--0">
-                                        <span className="subtitle">My Complete project</span>
-                                        <h2 className="title">My Latest Project</h2>
+                                        <span className="subtitle">Merch</span>
+                                        <h2 className="title">Our Shop</h2>
                                         <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
                                     <span className="subtitle">My Latest Post</span>
-                                    <h2 className="title">Latest News</h2>
+                                    <h2 className="title">Blog</h2>
                                     <p className="description">There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
                                 </div>
                             </div>

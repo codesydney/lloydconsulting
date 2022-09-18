@@ -41,7 +41,7 @@ const SlideList = [
 const ServiceListOne = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
+        title: 'Business Strategy',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {

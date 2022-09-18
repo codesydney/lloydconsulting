@@ -4,7 +4,7 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
+        title: 'Business Strategy',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
@@ -45,7 +45,7 @@ class ServiceThree extends Component{
                 <div className="row service-main-wrapper">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            <a href="/">
                                 <div className="service service__style--2 text-left bg-gray">
                                     <div className="icon">
                                         {val.icon}

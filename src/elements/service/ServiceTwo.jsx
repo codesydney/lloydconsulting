@@ -4,7 +4,7 @@ import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp, FiMail, FiCopy } 
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
+        title: 'Business Strategy',
         description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
     },
     {

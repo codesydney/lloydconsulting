@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
-const logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+const logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Footer Logo" />;
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},

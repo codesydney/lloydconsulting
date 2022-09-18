@@ -43,11 +43,11 @@ class HeaderFive extends Component{
         const { logo, color , headerPosition } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Trydo" />;
+            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="HeaderFive Logo" />;
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Trydo" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Trydo" />;
+            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="HeaderFive Logo" />;
         }else if(logo === 'all-dark'){
             logoUrl = <img src="/assets/images/logo/logo-all-dark.png" alt="Trydo" />;
         } else if(logo === 'symbol-light'){
@@ -135,8 +135,8 @@ class HeaderFive extends Component{
                                         </ul>
                                     </nav>
                                     <div className="header-btn d-none d-sm-block">
-                                        <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
-                                            <span>buy now</span>
+                                        <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
+                                            <span>Book a meeting</span>
                                         </a>
                                     </div>
                                     {/* Start Humberger Menu  */}

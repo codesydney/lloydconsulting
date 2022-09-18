@@ -120,7 +120,7 @@ class HomeParticles extends Component{
                         <div className="header-left">
                             <div className="logo">
                                 <a href="/">
-                                    <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Logo Images"/>
+                                    <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="HomeParticles Logo"/>
                                     <img className="logo-2" src="/assets/images/logo/logo-all-dark.png" alt="Logo Images"/>
                                 </a>
                             </div>

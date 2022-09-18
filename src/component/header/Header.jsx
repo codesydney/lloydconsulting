@@ -36,11 +36,11 @@ class Header extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Header Logo" />;
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Header Logo" />;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{
@@ -122,8 +122,8 @@ class Header extends Component{
                             </ul>
                         </nav>
                         <div className="header-btn">
-                            <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
-                                <span>Buy Now</span>
+                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
+                                <span>Book a meeting</span>
                             </a>
                         </div>
                         {/* Start Humberger Menu  */}

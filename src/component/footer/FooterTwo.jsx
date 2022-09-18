@@ -17,7 +17,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="/home-one">
-                                    <img src="/assets/images/logo/logo-light.png" alt="Logo images"/>
+                                    <img src="/assets/images/logo/logo-light.png" alt="FooterTwo Logo"/>
                                 </a>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+                                <p>Web Development by Code.Sydney</p>
                             </div>
                         </div>
                     </div>

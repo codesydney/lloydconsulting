@@ -162,7 +162,7 @@ class InteriorLanding extends Component{
                         <div className="header-left">
                             <div className="logo">
                                 <a href="/">
-                                    <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Logo Images"/>
+                                    <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Interior Logo"/>
                                     <img className="logo-2" src="/assets/images/logo/logo-all-dark.png" alt="Logo Images"/>
                                 </a>
                             </div>
@@ -180,8 +180,8 @@ class InteriorLanding extends Component{
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
-                                <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
-                                    <span>buy now</span>
+                                <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
+                                    <span>Book a meeting</span>
                                 </a>
                             </div>
                             {/* Start Humberger Menu  */}

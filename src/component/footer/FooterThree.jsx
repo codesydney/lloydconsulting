@@ -23,7 +23,7 @@ const FooterThree = () => {
                             </div>
                             <div className="logo">
                                 <a href="/home-one">
-                                    <img src="/assets/images/logo/logo-light.png" alt="Logo images"/>
+                                    <img src="/assets/images/logo/logo-light.png" alt="HeaderThree Logo"/>
                                 </a>
                             </div>
                             <ul className="social-share d-flex justify-content-center liststyle">

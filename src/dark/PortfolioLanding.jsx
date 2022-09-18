@@ -17,7 +17,7 @@ const SlideList = [
         textPosition: 'text-left',
         category: 'Welcome to my World',
         description: '',
-        buttonText: 'Download CV',
+        buttonText: 'Learn more',
         buttonLink: ''
     }
 ]
@@ -42,14 +42,16 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">I’m Joe Biden <br/>
+                                            <h1 className="title">Lloyd Consulting <br/>
                                             <TextLoop>
-                                                <span> JS Developer.</span>
-                                                <span> UI/UX Designer.</span>
-                                                <span> Content Writter.</span>
+                                                <span> Advocate.</span>
+                                                <span> Counsellor.</span>
+                                                <span> Humane.</span>
+                                                <span> Lived Experience.</span>
+                                                <span> Diversity Consultant.</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>based in USA.</h2>
+                                            <h2>Dean M. Lloyd</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn mt--30"><a className="btn-default btn-border btn-opacity" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>

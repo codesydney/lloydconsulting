@@ -538,8 +538,8 @@ class Demo extends Component {
                             </nav>
 
                             <div className="header-btn">
-                                <a className="btn-default" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
-                                    <span>Buy Now</span>
+                                <a className="btn-default" target="_blank" href="#">
+                                    <span>Book a meeting</span>
                                 </a>
                             </div>
                             {/* Start Humberger Menu  */}

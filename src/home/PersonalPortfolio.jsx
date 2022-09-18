@@ -16,7 +16,7 @@ const SlideList = [
         category: 'Freelance digital designer',
         title: 'Hello, I’m <span>Fatima.</span>',
         description: 'I’m working on a professional, visually sophisticated and technologically <br /> proficient, responsive and multi-functional React Template Imroz.',
-        buttonText: 'Download CV',
+        buttonText: 'Learn more',
         buttonLink: ''
     }
 ]

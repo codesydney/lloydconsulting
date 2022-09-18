@@ -69,7 +69,10 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
+                        {/* Commented by Engramar on 18/09/2022 to replace with Dark Portfolio Landing
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
+                        */}
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>

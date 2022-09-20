@@ -18,7 +18,7 @@ class ContactOne extends Component{
                                     </div>
                                     <div className="im_address mt--5">
                                         <span>Contact Email:</span>
-                                        <a className="link im-hover" href="mailto:example@gmail.com">example@gmail.com</a>
+                                        <a className="link im-hover" href="mailto:dean@criminalconsultant.com.au">dean@criminalconsultant.com.au</a>
                                     </div>
                                 </div>
                             </div>

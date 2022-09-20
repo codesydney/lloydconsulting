@@ -17,7 +17,7 @@ class ContactTwo extends Component{
                                 </div>
                                 <div className="im_address mt--5">
                                     <span>Contact Email:</span>
-                                    <a className="link im-hover" href="email">example@gmail.com</a>
+                                    <a className="link im-hover" href="email">dean@criminalconsultant.com.au</a>
                                 </div>
                             </div>
                             <FormStyle />

@@ -22,8 +22,8 @@ const SlideList = [
     }
 ]
 const PortfolioLanding = () => {
-    let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some form, by injected humour.';
+    let title = 'About Lloyd Consulting',
+        description = 'Lloyd Consulting is a non profit charity organisation from Dean M. Lloyd';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark bg_color--9">

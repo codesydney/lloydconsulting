@@ -22,6 +22,7 @@ const ServiceList = [
         icon: <FiUsers />,
         title: 'Marketing & Reporting',
         description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
+        observation: 'limited Availability'
     },
     {
         icon: <FiMonitor />,
@@ -75,6 +76,7 @@ class Service extends Component{
                                             <div className="content">
                                                 <h3 className="title">{val.title}</h3>
                                                 <p>{val.description}</p>
+                                                <p>{val.observation}</p>
                                             </div>
                                         </div>
                                     </a>

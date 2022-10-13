@@ -75,7 +75,6 @@ class Service extends Component{
                                             <div className="content">
                                                 <h3 className="title">{val.title}</h3>
                                                 <p>{val.description}</p>
-                                                <p>{val.observation}</p>
                                             </div>
                                         </div>
                                     </a>

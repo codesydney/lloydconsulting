@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp, FiMail, FiCopy } from "react-icons/fi";
+import { FiCast , FiLayers , FiUsers , FiMonitor , FiMail, FiCopy } from "react-icons/fi";
 
 const ServiceList = [
     {

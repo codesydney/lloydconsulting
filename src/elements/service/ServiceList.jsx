@@ -1,5 +1,5 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiCast , FiLayers , FiUsers , FiMonitor} from "react-icons/fi";
 
 const ServiceList = [
     {
@@ -26,11 +26,12 @@ const ServiceList = [
         icon: <FiUsers />,
         title: 'Public Speaking or Pod cast requests',
         description: 'Check my Social Media for updates.'
-    },
+    }
+    // ,
     // { 
     //     icon: <FiMonitor />,
-    //     title: 'Mobile App Development',
-    //     description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+    //     title: '',
+    //     description: ''
     // }
 ]
 
@@ -53,7 +54,6 @@ class ServiceThree extends Component{
                                     <div className="content">
                                         <h3 className="title">{val.title}</h3>
                                         <p>{val.description}</p>
-                                        <p>{val.observation}</p>
                                     </div>
                                 </div>
                             </a>

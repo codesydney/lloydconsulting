@@ -22,7 +22,6 @@ const ServiceList = [
         icon: <FiUsers />,
         title: 'Marketing & Reporting',
         description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
-        observation: 'limited Availability'
     },
     {
         icon: <FiMonitor />,

@@ -15,8 +15,7 @@ const ServiceList = [
     {
         icon: <FiUsers />,
         title: 'Coaching',
-        description: 'Bespoke Programs of 3, 6 , 9 or 12 monhts'
-        observation: 'limited Availability'
+        description: 'Bespoke Programs of 3, 6 , 9 or 12 monhts - limited Availability'
     },
     { 
         icon: <FiMonitor />,

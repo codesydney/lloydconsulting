@@ -15,6 +15,9 @@ Thank you to our contributors.
 - [Livia](https://github.com/LiviaFResende) - Web Developer
 - [Kathryn](https://github.com/kathryn008) - Web Developer
 
+## Getting Started
+
+Please read our [Getting Start Guide](GETTING_STARTED.md)
 
 ## Project Google Drive
 

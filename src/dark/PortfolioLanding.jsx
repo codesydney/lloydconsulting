@@ -156,9 +156,9 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <span className="subtitle">My Latest Post</span>
+                                    <span className="subtitle">News and Media Posts</span>
                                     <h2 className="title">Blog</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
+                                    <p className="description">Learn more about safe communities, advocacy, workplace diversity <br />and employment for ex-inmates from these resources:</p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ const PortfolioLanding = () => {
                                     <div className="im_box">
                                         <div className="thumbnail">
                                             <Link to="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
+                                                <img className="w-100" src={`/assets/images/blog/newImageForBlog-${value.images}.jpg`} alt="Blog Images"/>
                                             </Link>
                                         </div>
                                         <div className="content">

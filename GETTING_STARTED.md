@@ -37,8 +37,8 @@ Now you can run the commands below.
 ```npm install```
 
 ## Running the Project
-First, you'll need to navigate to the project folder.
+First, you'll need to navigate to the project folder with the command line or terminal.
 
-### Run Project
+Then you can run the project with `npm run dev`.
 
-```npm run dev```
+

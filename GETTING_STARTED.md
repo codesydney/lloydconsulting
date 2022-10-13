@@ -39,6 +39,6 @@ Now you can run the commands below.
 ## Running the Project
 First, you'll need to navigate to the project folder with the command line or terminal.
 
-Then you can run the project with `npm run dev`.
+Then you can run the project with `npm run`.
 
 

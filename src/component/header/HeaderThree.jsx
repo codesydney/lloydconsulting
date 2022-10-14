@@ -6,7 +6,7 @@ import Scrollspy from 'react-scrollspy'
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/consult_a_criminal/?hl=en'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 class HeaderThree extends Component{
@@ -87,7 +87,7 @@ class HeaderThree extends Component{
                         <div className="social-share-inner d-none d-sm-block">
                             <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a href={`${val.link}`} target="_blank" rel="noopener noreferrer">{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>

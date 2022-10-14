@@ -1,18 +1,18 @@
 const BlogContent = [
     {
         images: '01',
-        title: 'What is the Difference between Web and Brand.',
-        category: 'App Development'
+        title: "'It's not like the movies': Ex-inmates explain why this 'lockdown' isn't just like prison",
+        category: 'ABC News'
     },
     {
         images: '02',
-        title: 'A big ticket gone to be an interesting look New York.',
-        category: 'React App'
+        title: 'Labels.... good on jars, not so much on humans',
+        category: 'LinkedIn Article'
     },
     {
         images: '03',
-        title: 'Getting tickets to the big show have a closer look.',
-        category: 'Photoshop'
+        title: 'If you Want a Safe Community, Employ Someone With a Criminal Record',
+        category: 'Podcast'
     },
     {
         images: '04',

@@ -1,37 +1,38 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiCast , FiLayers , FiUsers , FiMonitor} from "react-icons/fi";
 
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Strategy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Consulting',
+        description: 'Diversity Consultancy from my lived experience.'
     },
     {
         icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Counseling',
+        description: 'One on One Group Sessions'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Coaching',
+        description: 'Bespoke Programs of 3, 6, 9 or 12 Months - Limited Availabilty'
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Programs',
+        description: 'Understanding How To Embrace and Sustain Change.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Public Speaking or Podcast Requests',
+        description: 'Check My Social Media for Updates'
     }
+    // ,
+    // { 
+    //     icon: <FiMonitor />,
+    //     title: '',
+    //     description: ''
+    // }
 ]
 
 

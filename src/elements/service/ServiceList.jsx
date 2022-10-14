@@ -10,22 +10,22 @@ const ServiceList = [
     {
         icon: <FiLayers />,
         title: 'Counseling',
-        description: 'One on one or Group Sessions.'
+        description: 'One on One Group Sessions'
     },
     {
         icon: <FiUsers />,
         title: 'Coaching',
-        description: 'Bespoke Programs of 3, 6 , 9 or 12 monhts - limited Availability'
+        description: 'Bespoke Programs of 3, 6, 9 or 12 Months - Limited Availabilty'
     },
     { 
         icon: <FiMonitor />,
         title: 'Programs',
-        description: 'Understanding how to embrace and sustain change.'
+        description: 'Understanding How To Embrace and Sustain Change.'
     },
     {
         icon: <FiUsers />,
-        title: 'Public Speaking or Pod cast requests',
-        description: 'Check my Social Media for updates.'
+        title: 'Public Speaking or Podcast Requests',
+        description: 'Check My Social Media for Updates'
     }
     // ,
     // { 

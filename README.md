@@ -14,6 +14,7 @@ Thank you to our contributors.
 - [Naheen](https://github.com/n4heen) - Web Developer
 - [Livia](https://github.com/LiviaFResende) - Web Developer
 - [Kathryn](https://github.com/kathryn008) - Web Developer
+- [David](https://github.com/davidtaing) - Web Developer
 
 ## Getting Started
 

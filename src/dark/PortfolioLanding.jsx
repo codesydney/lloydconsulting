@@ -22,8 +22,8 @@ const SlideList = [
     }
 ]
 const PortfolioLanding = () => {
-    let title = 'About Lloyd Consulting',
-        description = 'Lloyd Consulting is a non profit charity organisation from Dean M. Lloyd';
+    let title = 'About Lloyd Consulting Co',
+        description = 'Lloyd Consulting Co is a non profit charity organisation from Dean M. Lloyd';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark bg_color--9">
@@ -42,7 +42,7 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Lloyd Consulting <br/>
+                                            <h1 className="title">Lloyd Consulting Co <br/>
                                             <TextLoop>
                                                 <span> Advocate.</span>
                                                 <span> Counsellor.</span>
@@ -51,7 +51,7 @@ const PortfolioLanding = () => {
                                                 <span> Diversity Consultant.</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>Dean M. Lloyd</h2>
+                                            <h2>Diversity by Design</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn mt--30"><a className="btn-default btn-border btn-opacity" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>

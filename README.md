@@ -1,4 +1,4 @@
-# Lloyd Consulting
+# Lloyd Consulting Co
 
 ## About the Project
 This is a new website for Lloyd Criminal Consulting Co. 

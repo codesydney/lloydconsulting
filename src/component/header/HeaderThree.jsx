@@ -93,7 +93,7 @@ class HeaderThree extends Component{
                         </div>
                         <div className="header-btn">
                             <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
-                                <span>Book a meeting</span>
+                                <span>Enquiries</span>
                             </a>
                         </div>
                         {/* Start Humberger Menu  */}

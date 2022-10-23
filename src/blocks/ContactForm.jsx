@@ -25,7 +25,7 @@ const ContactForm = () => {
 
                 {/* Start Contact Form  */}
                 <div className="rn-contact-form-area ptb--120 bg_color--1">
-                    <ContactThree contactTitle="Contact Us" contactImages="/assets/images/about/ContactUs.jpg" />
+                    <ContactThree contactTitle="Contact Us" contactImages="/assets/images/about/contactUs.jpg" />
                 </div>
                 {/* Start Contact Form  */}
 

@@ -32,9 +32,9 @@ const FooterTwo = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-                        <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
+                        <div className="inner text-lg-center text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p><a href="https://www.code.sydney/" target="_blank" rel="noopener noreferrer">Web Development by Code.Sydney</a></p>
+                                <p>Web Development By <a href="https://www.code.sydney/" target="_blank" rel="noopener noreferrer">Code.Sydney</a></p>
                             </div>
                         </div>
                     </div>

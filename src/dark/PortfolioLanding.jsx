@@ -18,7 +18,7 @@ const SlideList = [
         category: 'Welcome to my World',
         description: '',
         buttonText: 'Learn more',
-        buttonLink: ''
+        buttonLink: '/#contact'
     }
 ]
 const PortfolioLanding = () => {

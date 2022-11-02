@@ -88,7 +88,7 @@ class HeaderThree extends Component{
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
+                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#contact">
                                 <span>Enquiries</span>
                             </a>
                         </div>

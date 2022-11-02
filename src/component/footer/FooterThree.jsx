@@ -22,7 +22,7 @@ const FooterThree = () => {
                                 </div>
                             </div>
                             <div className="logo">
-                                <a href="/home-one">
+                                <a href="#">
                                     <img src="/assets/images/logo/logo-light.png" alt="HeaderThree Logo"/>
                                 </a>
                             </div>

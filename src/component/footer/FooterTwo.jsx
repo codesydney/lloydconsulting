@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaYoutube , FaLinkedinIn} from "react-icons/fa";
+import {FaYoutube , FaLinkedinIn, FaInstagram} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaYoutube /> , link: 'https://www.youtube.com/channel/UC2x2-XROxQMbehihLBVc53A'},

@@ -13,7 +13,7 @@ class ContactTwo extends Component{
                                 <h2 className="title">Contact With Us.</h2>
                                 <div className="im_address">
                                     <span>Call us directly:</span>
-                                    <a className="link im-hover" href="phone">+111 (0)55 5869 8976</a>
+                                    <a className="link im-hover" href="phone">(+61) 0402 602 591</a>
                                 </div>
                                 <div className="im_address mt--5">
                                     <span>Contact Email:</span>

@@ -6,6 +6,7 @@ import Scrollspy from 'react-scrollspy'
 const SocialShare = [
     {Social: <FaYoutube /> , link: 'https://www.youtube.com/channel/UC2x2-XROxQMbehihLBVc53A'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/dean-m-lloyd-criminalconsultant/?originalSubdomain=au'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/consult_a_criminal/?hl=en'},
 ]
 class HeaderThree extends Component{
     constructor(props) {
@@ -71,12 +72,8 @@ class HeaderThree extends Component{
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','contact']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Services</a></li>
-                                <li><a href="#portfolio">Merch</a></li>
-                                <li><a href="#blog">Blog</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </Scrollspy>
                         </nav>
@@ -85,13 +82,13 @@ class HeaderThree extends Component{
                         <div className="social-share-inner d-none d-sm-block">
                             <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a href={`${val.link}`} target="_blank" rel="noopener noreferrer">{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
-                                <span>Book a meeting</span>
+                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#contact">
+                                <span>Enquiries</span>
                             </a>
                         </div>
                         {/* Start Humberger Menu  */}

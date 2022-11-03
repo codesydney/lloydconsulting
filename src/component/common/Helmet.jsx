@@ -8,9 +8,9 @@ class PageHelmet extends Component{
             <React.Fragment>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Lloyd Consulting </title>
+                    <title>Lloyd Consulting Co</title>
                     <meta name="robots" content="noindex, follow" />
-                    <meta name="description" content="Lloyd Consulting " />
+                    <meta name="description" content="Lloyd Consulting Co" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 </Helmet>
             </React.Fragment>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaYoutube , FaLinkedinIn } from "react-icons/fa";
+import {FaYoutube, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 

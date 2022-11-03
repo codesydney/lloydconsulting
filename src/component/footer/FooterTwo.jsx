@@ -4,6 +4,7 @@ import {FaYoutube , FaLinkedinIn} from "react-icons/fa";
 const SocialShare = [
     {Social: <FaYoutube /> , link: 'https://www.youtube.com/channel/UC2x2-XROxQMbehihLBVc53A'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/dean-m-lloyd-criminalconsultant/?originalSubdomain=au'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/consult_a_criminal/?hl=en'},
 ]
 
 const FooterTwo = () => {

@@ -64,6 +64,14 @@ const PortfolioLanding = () => {
                 </div>
             </div>
             {/* End Slider Area   */} 
+            
+                {/* Start Service Area  */}
+                <div className="service-area ptb--120 bg_color--5">
+                   <div className="container">
+                        <ServiceList />
+                   </div>
+                </div>
+                {/* End Service Area  */}
 
             {/* Start Contact Area */}
             <div id="contact" className="fix">

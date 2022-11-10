@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
+import {FaYoutube, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
+    {Social: <FaYoutube /> , link: 'https://www.youtube.com/channel/UC2x2-XROxQMbehihLBVc53A'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/dean-m-lloyd-criminalconsultant/?originalSubdomain=au'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/consult_a_criminal/?hl=en'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 class HeaderThree extends Component{
     constructor(props) {
@@ -73,12 +72,8 @@ class HeaderThree extends Component{
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','contact']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Services</a></li>
-                                <li><a href="#portfolio">Shop</a></li>
-                                <li><a href="#blog">Blog</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </Scrollspy>
                         </nav>
@@ -92,7 +87,7 @@ class HeaderThree extends Component{
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#">
+                            <a className="btn-default btn-border btn-opacity" target="_blank" href="#contact">
                                 <span>Enquiries</span>
                             </a>
                         </div>

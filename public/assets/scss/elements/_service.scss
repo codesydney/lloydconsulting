@@ -55,6 +55,7 @@
         }
 
         &.service__style--2 {
+            width: 100%;
             padding: 30px 35px;
             transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1),box-shadow 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
             @extend %posrelative;

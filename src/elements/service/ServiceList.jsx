@@ -27,12 +27,6 @@ const ServiceList = [
         title: 'Public Speaking or Podcast Requests',
         description: 'Check My Social Media for Updates'
     }
-    // ,
-    // { 
-    //     icon: <FiMonitor />,
-    //     title: '',
-    //     description: ''
-    // }
 ]
 
 

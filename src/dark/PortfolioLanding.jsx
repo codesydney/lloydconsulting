@@ -64,30 +64,6 @@ const PortfolioLanding = () => {
             </div>
             {/* End Slider Area   */}
 
-
-            {/* Start Service Area  */}
-            <div id="service" className="fix">
-                <div className="service-area creative-service-wrapper pb--120 bg_color--8" >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center mb--30 mb_sm--0">
-                                    <span className="subtitle">How can I help</span>
-                                    <h2 className="title">Services</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* End Service Area  */}
-
             {/* Start About Area */}
             <div id="about" className="fix">
 
@@ -129,9 +105,7 @@ const PortfolioLanding = () => {
 
                 {/* End About Area */}
 
-
-
-
+                {/* End Contact Area */ }
                 <div id="contact" className="fix">
                     <div className="rn-contact-area pb--120 bg_color--8">
                         <ContactThree contactImages="/assets/images/about/contactUs.jpg" contactTitle="Work with me." />

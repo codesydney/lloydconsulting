@@ -112,21 +112,21 @@ const PortfolioLanding = () => {
                     </div>
                 </div>
             </div>
+       
+
+
+        {/* End Contact Area */ }
+
+
+        < FooterTwo />
+        {/* Start Back To Top */ }
+        < div className = "backto-top" >
+            <ScrollToTop showUnder={160}>
+                <FiChevronUp />
+            </ScrollToTop>
+                </div >
+        {/* End Back To Top */ }
         </div>
-
-
-        // {/* End Contact Area */ }
-
-
-        // < FooterTwo />
-        // {/* Start Back To Top */ }
-        // < div className = "backto-top" >
-        //     <ScrollToTop showUnder={160}>
-        //         <FiChevronUp />
-        //     </ScrollToTop>
-        //         </div >
-        // {/* End Back To Top */ }
-
     )
 }
 

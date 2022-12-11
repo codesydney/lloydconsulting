@@ -3,6 +3,9 @@
 ----------------------------*/
 
 .active-dark {
+  --active-primary: #18181b;
+  --active-secondary: #3f3f46;
+
   background: #101010;
   [data-overlay="6"]:before,
   [data-black-overlay="6"]:before,
@@ -23,7 +26,7 @@
     .header-area.header--fixed.sticky,
     .backto-top > div,
     .bg_color--6 {
-      background: #091020;
+      background: #b7e1f7;
     }
   }
 
@@ -63,16 +66,23 @@
   .h6 {
     color: #ffffff;
   }
+
+  .hero-headline,
+  .hero-subheadline {
+    color: var(--active-primary);
+  }
+
   a.btn-transparent {
     color: #ffffff;
   }
+
   .section-title p,
   .about-us-list p,
   .about-inner .section-title p.description,
   .service.service__style--2 .content p,
   .counterup_style--1 p.description,
   .rn-testimonial-content .author-info h6,
-  .slide.slider-style-3 .inner > span,
+  // .slide.slider-style-3 .inner > span,
   .single-tab-content ul li a,
   .single-tab-content ul li {
     color: rgba(198, 201, 216, 0.75);
@@ -96,7 +106,7 @@
   ul.social-share.social-style--2.color-black li a,
   .header-area.color-black a.rn-btn,
   ul.tab-style--1 li {
-    color: #ffffff;
+    color: var(--active-primary);
   }
   .portfolio-sacousel-inner .slick-dots li button::after,
   .rn-slick-dot .slick-dots li button::after {
@@ -158,13 +168,13 @@
   }
 
   .header-area.color-black a.btn-default.btn-border.btn-opacity {
-    color: rgba(198, 201, 216, 0.75);
-    border-color: rgba(198, 201, 216, 0.75);
+    color: var(--active-primary);
+    border-color: var(--active-secondary);
   }
 
   .header-area.color-black a.btn-default.btn-border.btn-opacity:hover {
-    color: var(--color-white);
-    border-color: var(--color-primary);
+    color: var(--active-primary);
+    border-color: var(--active-secondary);
   }
   .im_address .link {
     color: rgba(198, 201, 216, 0.75);
@@ -274,8 +284,8 @@
 
 .active-dark a.btn-default.btn-border.btn-opacity,
 .active-dark button.btn-default.btn-border.btn-opacity {
-  border: 2px solid var(--color-opacity-1) !important;
-  color: var(--color-white) !important;
+  border: 2px solid #000;
+  color: #000;
 }
 
 .active-dark

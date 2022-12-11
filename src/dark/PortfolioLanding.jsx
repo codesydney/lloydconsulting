@@ -40,8 +40,8 @@ const PortfolioLanding = () => {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
-                                            {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Lloyd Consulting Co <br />
+                                            {value.category ? <span className="hero-subheadline">{value.category}</span> : ''}
+                                            <h1 className="title hero-headline">Lloyd Consulting Co <br />
                                                 <TextLoop>
                                                     <span> Advocate.</span>
                                                     <span> Counsellor.</span>
@@ -50,7 +50,7 @@ const PortfolioLanding = () => {
                                                     <span> Diversity Consultant.</span>
                                                 </TextLoop>{" "}
                                             </h1>
-                                            <h2>Business Done Differently</h2>
+                                            <h2 className="hero-headline">Business Done Differently</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn mt--30"><a className="btn-default btn-border btn-opacity" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>

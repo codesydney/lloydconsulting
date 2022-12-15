@@ -3,9 +3,6 @@
 ----------------------------*/
 
 .active-dark {
-  --active-primary: #18181b;
-  --active-secondary: #3f3f46;
-
   background: #101010;
   [data-overlay="6"]:before,
   [data-black-overlay="6"]:before,
@@ -24,9 +21,12 @@
   &.bg_color--9 {
     .creative-service-wrapper .row.creative-service .service.service__style--2,
     .header-area.header--fixed.sticky,
-    .backto-top > div,
     .bg_color--6 {
       background: #b7e1f7;
+    }
+
+    .backto-top > div {
+      background: var(--active-primary);
     }
   }
 

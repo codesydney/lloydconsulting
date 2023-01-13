@@ -16,6 +16,12 @@ Thank you to our contributors.
 - [Kathryn](https://github.com/kathryn008) - Web Developer
 - [David](https://github.com/davidtaing) - Web Developer
 
+## Tech Stack
+
+- JavaScript
+- React
+- SCSS
+
 ## Getting Started
 
 Please read our [Getting Start Guide](GETTING_STARTED.md)

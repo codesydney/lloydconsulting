@@ -108,6 +108,23 @@
   ul.tab-style--1 li {
     color: var(--active-primary);
   }
+
+  .title.highlight {
+    height: 112px;
+
+    span {
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      height: auto;
+
+      span {
+        display: inline;
+      }
+    }
+  }
+
   .portfolio-sacousel-inner .slick-dots li button::after,
   .rn-slick-dot .slick-dots li button::after {
     background: #ffffff;
@@ -210,20 +227,10 @@
     .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
       color: #ffffff;
     }
-    .header-area
-      .header-wrapper
-      .mainmenunav
-      ul.mainmenu
-      li.has-droupdown
-      > a::after {
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a::after {
       border-color: #ffffff transparent transparent transparent;
     }
-    .header-area
-      .header-wrapper
-      .mainmenunav
-      ul.mainmenu
-      li.has-droupdown
-      > a.open::after {
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a.open::after {
       border-color: transparent transparent var(--color-primary) transparent;
     }
   }
@@ -246,20 +253,10 @@
     .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
       color: #ffffff;
     }
-    .header-area
-      .header-wrapper
-      .mainmenunav
-      ul.mainmenu
-      li.has-droupdown
-      > a::after {
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a::after {
       border-color: #ffffff transparent transparent transparent;
     }
-    .header-area
-      .header-wrapper
-      .mainmenunav
-      ul.mainmenu
-      li.has-droupdown
-      > a.open::after {
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a.open::after {
       border-color: transparent transparent var(--color-primary) transparent;
     }
   }
@@ -270,10 +267,7 @@
   .accodion-style--1 .accordion__item .accordion__heading .accordion__button {
     color: #fff;
   }
-  .accodion-style--1
-    .accordion__item
-    .accordion__heading
-    .accordion__button::after {
+  .accodion-style--1 .accordion__item .accordion__heading .accordion__button::after {
     background: #353434;
   }
 
@@ -288,11 +282,6 @@
   color: #000;
 }
 
-.active-dark
-  .header-area.header--fixed.default-color.sticky
-  .mainmenunav
-  ul.mainmenu
-  > li
-  > a {
+.active-dark .header-area.header--fixed.default-color.sticky .mainmenunav ul.mainmenu > li > a {
   color: #ffff;
 }

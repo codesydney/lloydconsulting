@@ -1,7 +1,8 @@
 # Lloyd Consulting Co
 
 ## About the Project
-This is a new website for Lloyd Criminal Consulting Co. 
+
+This is a new website for Lloyd Criminal Consulting Co.
 
 Having identified a gap in the employment market for the on-boarding and management of people with a criminal record in organisations, Lloyd Criminal Consulting Co works in the space between employers and ex-prisoners and provides best-practice support, education, and training on how to engage and work with people impacted by the Criminal Justice System, and other marginalised populations.
 
@@ -24,7 +25,7 @@ Thank you to our contributors.
 
 ## Getting Started
 
-Please read our [Getting Start Guide](GETTING_STARTED.md)
+Please read our [Getting Started Guide](GETTING_STARTED.md)
 
 ## Project Google Drive
 

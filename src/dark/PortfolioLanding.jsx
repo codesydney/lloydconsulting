@@ -41,15 +41,22 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span className="hero-subheadline">{value.category}</span> : ''}
-                                            <h1 className="title hero-headline">Lloyd Consulting Co <br />
-                                                <TextLoop>
-                                                    <span> Advocate.</span>
-                                                    <span> Counsellor.</span>
-                                                    <span> Humane.</span>
-                                                    <span> Lived Experience.</span>
-                                                    <span> Diversity Consultant.</span>
-                                                </TextLoop>{" "}
+                                            <h1 className="title hero-headline">
+                                                Lloyd Consulting Co
                                             </h1>
+                                            <TextLoop>
+                                                <h1 className="title highlight"><span>Advocate.</span></h1>
+                                                <h1 className="title highlight"><span>Counsellor.</span></h1>
+                                                <h1 className="title highlight"><span>Humane.</span></h1>
+                                                <h1 className="title highlight">
+                                                    <span>Lived </span>
+                                                    <span>Experience.</span>
+                                                </h1>
+                                                <h1 className="title highlight">
+                                                    <span>Diversity </span>
+                                                    <span>Consultant.</span>
+                                                </h1>
+                                            </TextLoop>
                                             <h2 className="hero-headline">Business Done Differently</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn mt--30"><a className="btn-default btn-border btn-opacity" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}

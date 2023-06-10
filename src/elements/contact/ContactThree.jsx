@@ -9,8 +9,8 @@ class ContactThree extends Component {
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <span className="subtitle">Let's Say Hi</span>
-                                <h2 className="title">Contact</h2>
+                                <span className="subtitle">Get in touch</span>
+                                <h2 className="title">How can I help?</h2>
                                 <div className="im_address_inner">
                                     <div className="im_address">
                                         <span>Call us directly:</span>

@@ -57,7 +57,7 @@ const PortfolioLanding = () => {
                                                     <span>Consultant.</span>
                                                 </h1>
                                             </TextLoop>
-                                            <h2 className="hero-headline">Business Done Differently</h2>
+                                            <h2 className="hero-headline2">Business Done Differently</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''} 
                                             {/*                                          
                                             {value.buttonText ? <div className="slide-btn mt--30"><a className="btn-default btn-border btn-opacity" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}

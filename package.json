@@ -156,5 +156,16 @@
   },
   "devDependencies": {
     "terser-webpack-plugin": "^4.2.3"
+  },
+  "description": "## About the Project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesydney/lloydconsulting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesydney/lloydconsulting/issues"
   }
 }

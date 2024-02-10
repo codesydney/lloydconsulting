@@ -18,7 +18,7 @@ class ContactThree extends Component {
                                     </div>
                                     <div className="im_address mt--5">
                                         <span>Contact Email:</span>
-                                        <a className="link im-hover" href="mailto:dean@criminalconsultant.com.au​">dean@criminalconsultant.com.au</a>
+                                        <a className="link im-hover" href="mailto:dean@lloydconsulting.co​">dean@lloydconsulting.co</a>
                                     </div>
                                 </div>
                             </div>

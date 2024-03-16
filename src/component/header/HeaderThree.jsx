@@ -6,7 +6,7 @@ import Scrollspy from 'react-scrollspy'
 const SocialShare = [
     {Social: <FaYoutube /> , link: 'https://youtube.com/@LloydConsultingCo?feature=shared'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/dean-m-lloyd-criminalconsultant/?originalSubdomain=au'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/consult_a_criminal/?hl=en'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/lloydconsulting_co'},
 ]
 class HeaderThree extends Component{
     constructor(props) {

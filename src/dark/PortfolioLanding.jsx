@@ -75,24 +75,17 @@ const PortfolioLanding = () => {
 
             {/* Start About Area */}
             <div id="about" className="fix">
-
-
-                {/* Start Contact Area */}
-                <div id="contact" className="fix">
                     <div className="about-area ptb--120  bg_color--8">
                         <div className="about-wrapper">
                             <div className="container">
                                 <div className="row row--35">
-
-
-
-
 
                                     <div className="col-lg-5">
                                         <div className="thumbnail">
                                             <img className="w-100" src="/assets/images/blog/newImageForBlog-01.jpg" alt="About Images" />
                                         </div>
                                     </div>
+
                                     <div className="col-lg-7">
                                         <div className="about-inner inner">
                                             <div className="section-title">
@@ -106,10 +99,39 @@ const PortfolioLanding = () => {
 
                                         </div>
                                     </div>
+
+
+                                    <div className="col-lg-7">
+                                        <div className="about-inner inner">
+                                            <div className="section-title">
+                                                <br/>
+                                                <span className="subtitle">Services</span>
+                                                <h2 className="title mb--20">Areas of Expertise</h2>
+                                                <p>
+                                                    <ul>
+                                                        <li>
+                                                            Unlocking the value of lived experience
+                                                        </li>
+                                                        <li>
+                                                            Change Behaviour programs | Management
+                                                        </li>
+                                                        <li>
+                                                            Coaching | Counselling | Supervision for lived experience staff
+                                                        </li>
+                                                        <li>
+                                                            Crisis Management
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
 
                 {/* End About Area */}

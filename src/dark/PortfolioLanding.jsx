@@ -107,22 +107,20 @@ const PortfolioLanding = () => {
                                                 <br/>
                                                 <span className="subtitle">Services</span>
                                                 <h2 className="title mb--20">Areas of Expertise</h2>
-                                                <p>
-                                                    <ul>
-                                                        <li>
-                                                            Unlocking the value of lived experience
-                                                        </li>
-                                                        <li>
-                                                            Change Behaviour programs | Management
-                                                        </li>
-                                                        <li>
-                                                            Coaching | Counselling | Supervision for lived experience staff
-                                                        </li>
-                                                        <li>
-                                                            Crisis Management
-                                                        </li>
-                                                    </ul>
-                                                </p>
+                                                <ul className="expertise-list">
+                                                    <li>
+                                                        Unlocking the value of lived experience
+                                                    </li>
+                                                    <li>
+                                                        Change Behaviour programs | Management
+                                                    </li>
+                                                    <li>
+                                                        Coaching | Counselling | Supervision for lived experience staff
+                                                    </li>
+                                                    <li>
+                                                        Crisis Management
+                                                    </li>
+                                                </ul>
                                             </div>
 
                                         </div>

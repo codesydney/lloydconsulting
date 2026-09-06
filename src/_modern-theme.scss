@@ -1,0 +1,330 @@
+/* ==========================================================================
+   Modern theme overrides — Lloyd Consulting Co
+   --------------------------------------------------------------------------
+   The template ships dozens of unused demo pages sharing one legacy SCSS
+   library (public/assets/scss). Rather than rewrite that library, this file
+   is scoped almost entirely to `.active-dark` — the wrapper class only the
+   real homepage (src/dark/PortfolioLanding.jsx) renders — so those demo
+   routes are left exactly as the template intended.
+
+   It is imported LAST in src/index.scss so it wins the cascade, and several
+   selectors below deliberately repeat every class the legacy partials use
+   (see public/assets/scss/template/_dark-version.scss and
+   public/assets/scss/header/_header.scss) to out-specificity a couple of
+   pre-existing template bugs:
+     - a leftover demo-page rule painted the sticky header AND the footer
+       a pale sky-blue (#b7e1f7) instead of the site's dark navy
+     - the shared header partial recolours the "Enquiries" button and social
+       icons near-black whenever a header uses the `color-black` prop, which
+       is fine on a light page but invisible on this dark one
+     - form inputs and hero text inherited near-black colours meant for a
+       light background
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.active-dark {
+  // ---- Brand-aligned design tokens (scoped so demo pages keep the originals) ----
+  --color-primary: #1f5fe0; // accent blue sampled from the Lloyd Consulting logo
+  --color-secondary: #22d3ee; // cyan, used only for the gradient text accents
+  --surface-1: #0c1526; // section background
+  --surface-2: #101c33; // raised surface: cards, inputs, sticky header
+  --border-soft: rgba(255, 255, 255, 0.12);
+  --text-muted: rgba(226, 232, 245, 0.72);
+
+  #home,
+  #about,
+  #contact {
+    scroll-margin-top: 110px;
+  }
+
+  // ---- Eyebrow / label pills ("About Details", "Services", "Get in touch") ----
+  .section-title span.subtitle {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 16px;
+    border-radius: 999px;
+    background: rgba(31, 95, 224, 0.12);
+    border: 1px solid rgba(31, 95, 224, 0.35);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    // reset the base gradient-text-clip trick in favour of a solid readable colour
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .section-title h2.title {
+    letter-spacing: -0.5px;
+  }
+
+  // ==========================================================================
+  // Header
+  // ==========================================================================
+  .header-area.header--fixed {
+    background: transparent;
+    transition: background 0.35s ease, box-shadow 0.35s ease, backdrop-filter 0.35s ease;
+
+    .mainmenunav ul.mainmenu > li > a {
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .mainmenunav ul.mainmenu > li > a:hover,
+    .mainmenunav ul.mainmenu > li.is-current > a {
+      color: #fff;
+    }
+
+    .humberger-menu span.text-white {
+      color: #fff !important;
+    }
+
+    ul.social-share.social-style--2.color-black li a {
+      color: rgba(255, 255, 255, 0.7);
+      opacity: 1;
+
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  // out-specifies _header.scss's generic `.color-black` button rule, which
+  // otherwise renders this button in near-black text/border on our dark bg
+  .header-area.color-black a.btn-default.btn-border.btn-opacity {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.35);
+
+    &:hover {
+      color: #fff;
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+  }
+
+  // out-specifies _dark-version.scss's leftover demo rule (`#b7e1f7`)
+  &.bg_color--9 .header-area.header-style-two.header--fixed.color-black.sticky {
+    background: rgba(7, 11, 20, 0.86);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid var(--border-soft);
+  }
+
+  // ==========================================================================
+  // Hero
+  // ==========================================================================
+  .personal-portfolio-slider {
+    position: relative;
+
+    // _dark-version.scss unconditionally sets `display: none` on this
+    // pseudo-element (it's only meant to disable the template's mobile-only
+    // white overlay) — restore it so our own scrim overlay renders
+    &::before {
+      display: block;
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(7, 11, 20, 0.55) 0%, rgba(7, 11, 20, 0.72) 55%, rgba(7, 11, 20, 0.88) 100%);
+      z-index: 1;
+    }
+
+    .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .inner {
+      max-width: 760px;
+    }
+  }
+
+  // these two repeat the slide's own classes to out-specificity
+  // elements/_slider.scss's `.slide.slider-style-3 .inner > span` /
+  // `.inner h1.title` rules (both meant for a light background)
+  .personal-portfolio-slider .inner > span.hero-subheadline {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 18px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 28px !important;
+  }
+
+  .slide.personal-portfolio-slider.slider-style-3.bg_image--25 .inner h1.title.hero-headline {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 4px 30px rgba(0, 0, 0, 0.35);
+    margin-bottom: 4px;
+  }
+
+  .title.highlight {
+    margin-bottom: 20px;
+  }
+
+  h2.hero-headline2 {
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.3px;
+    margin-top: 4px;
+  }
+
+  // ==========================================================================
+  // About
+  // ==========================================================================
+  .about-wrapper .thumbnail {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: -14px auto auto -14px;
+      width: 100%;
+      height: 100%;
+      border: 2px solid rgba(31, 95, 224, 0.4);
+      border-radius: 20px;
+      z-index: 0;
+    }
+
+    img {
+      position: relative;
+      z-index: 1;
+      border-radius: 16px;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  .about-inner .section-title p.description {
+    max-width: 640px;
+    line-height: 1.8;
+  }
+
+  // "Areas of Expertise" — see the matching `expertise-list` class added in
+  // PortfolioLanding.jsx (was a bare, unstyled <ul>)
+  ul.expertise-list {
+    list-style: none;
+    margin: 24px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+    max-width: 640px;
+
+    li {
+      position: relative;
+      padding: 14px 20px 14px 54px;
+      background: var(--surface-2);
+      border: 1px solid var(--border-soft);
+      border-radius: 12px;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 16px;
+      transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+
+      &::before {
+        content: "\2713";
+        position: absolute;
+        left: 16px;
+        top: 12px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 50%;
+        background: var(--color-primary);
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      &:hover {
+        transform: translateX(4px);
+        border-color: rgba(31, 95, 224, 0.5);
+        background: rgba(31, 95, 224, 0.1);
+      }
+    }
+  }
+
+  // ==========================================================================
+  // Contact
+  // ==========================================================================
+  .contact-form--1 {
+    .thumbnail img {
+      border-radius: 16px;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+    }
+
+    input,
+    textarea {
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 10px;
+      color: #fff;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      &:focus {
+        background: rgba(255, 255, 255, 0.07);
+        box-shadow: 0 0 0 3px rgba(31, 95, 224, 0.25);
+      }
+    }
+
+    button.btn-default {
+      border: none;
+      transition: transform 0.25s ease, background 0.25s ease;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  .success-message {
+    color: #4ade80;
+  }
+
+  // ==========================================================================
+  // Footer — out-specifies _dark-version.scss's leftover demo rule (`#b7e1f7`)
+  // ==========================================================================
+  &.bg_color--9 .footer-style-2.bg_color--6 {
+    background: var(--surface-1);
+    border-top: 1px solid var(--border-soft);
+
+    p {
+      color: var(--text-muted);
+    }
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+
+    ul.social-share li a {
+      color: rgba(255, 255, 255, 0.7);
+      border: none;
+
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  // ==========================================================================
+  // Buttons — consistent focus state for keyboard users
+  // ==========================================================================
+  a.btn-default:focus-visible,
+  button.btn-default:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
